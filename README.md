@@ -1,4 +1,4 @@
-# PString Exercise Project:  
+# PString Assembly Project:  
 1. [Introduction](#introduction)  
 2. [run_main.s](#run_mains)  
 3. [Dependencies](#dependencies)
