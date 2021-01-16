@@ -4,7 +4,7 @@
 3. [Dependencies](#dependencies)
 
 ## Introduction
-An exercise in computer structure course, we were given a task to implement pstring.s with several methods similar to the string.h, as -
+An exercise in computer structure course, we were given a task to implement pstring.s with several methods like the string.h, as -
 
 * `char pstrlen(pstring* pstr)` - get the length of pstring
 * `pstring* replaceChar(pstring* pstr, char oldChar, char newChar)` - replace all the oldChar instance with newChar in pstr
@@ -13,13 +13,13 @@ An exercise in computer structure course, we were given a task to implement pstr
 * `int pstrijcmp(pstring* pstr1, pstring* pstr2, char i, char j)` - compare between src[i:j] to dst[i:j]
 
 ## run_main.s
-Getting an int from the user - the length of the first pstring (n), then getting n chars for the first pstirng. Than doing the same procces for the second pstring. Getting a number from the user (50, 52-55 or 60) and run one of the functions above using a switch case statement.
+Getting an int from the user - the length of the first pstring (n), then getting n chars for the first pstirng. Then doing the same procces for the second pstring. Getting a number from the user (50, 52-55 or 60) and run one of the functions above using a switch case statement.
 
 The switch-case options:
 ###### 50 or 60:
 > Calculate and print the two pstring length
 ###### 52:
-> Getting from the user two chars, oldChar and newChar. Than replace all the instance of the oldChar to the newChar (in the two pstrings).
+> Getting from the user two chars, oldChar and newChar. Then replace all the instance of the oldChar to the newChar (in the two pstrings).
 ###### 53:
 > Getting from the user two integers, i and j. Than call the pstrijcpy function with src as the second pstring and dst as the first. Then prints the two pstrings.
 ###### 54:
