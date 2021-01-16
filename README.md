@@ -1,3 +1,8 @@
+# PString Exercise Project:  
+1. [Introduction](#introduction)  
+2. [run_main.s:](#run_main.s)  
+3. [Dependencies:](#dependencies)
+
 ## Introduction
 An exercise in computer structure course, we were given a task to implement pstring.s with several methods similar to the string.h, as -
 
@@ -20,3 +25,7 @@ Getting from the user two integers, i and j. Than call the pstrijcpy function wi
 Using the swapCase function to swap every upper-case to lower-case in the two pstring.
 * 55:
 Getting from the user two integers, i and j. Than call the pstrijcmp function with pstr1 as the first pstring and pstr2 as the second. Then prints the compare result.
+
+## Dependencies:
+* MacOS / Linux
+* Git
