@@ -2,6 +2,7 @@
 1. [Introduction](#introduction)  
 2. [run_main.s](#run_main.s)  
 3. [Dependencies](#dependencies)
+4. [Installation](#installation)
 
 ## Introduction
 An exercise in computer structure course, we were given a task to implement pstring.s with several methods like the string.h, as -
@@ -27,12 +28,17 @@ The switch-case options:
 ###### 55:
 > Getting from the user two integers, i and j. Than call the pstrijcmp function with pstr1 as the first pstring and pstr2 as the second. Then prints the compare result.
 
-##Installation:
-Clone the repository:
-$ git clone https://github.com/tomershay100/PString.git
-run this commands:
-$ make
-$ ./a.out
-
 ## Dependencies
 * macOS / Linux
+
+## Installation
+1. Clone the repository:  
+    ```
+    $ git clone https://github.com/tomershay100/PString.git
+    ```
+2. run this commands:
+    ```
+    $ make
+    $ ./a.out
+    ```
+
