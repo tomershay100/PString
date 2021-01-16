@@ -27,5 +27,12 @@ The switch-case options:
 ###### 55:
 > Getting from the user two integers, i and j. Than call the pstrijcmp function with pstr1 as the first pstring and pstr2 as the second. Then prints the compare result.
 
+##Installation:
+Clone the repository:
+$ git clone https://github.com/tomershay100/PString.git
+run this commands:
+$ make
+$ ./a.out
+
 ## Dependencies
 * macOS / Linux
