@@ -30,6 +30,7 @@ The switch-case options:
 
 ## Dependencies
 * macOS / Linux
+* x86-64
 
 ## Installation
 1. Clone the repository:  
