@@ -7,12 +7,13 @@
 ## Introduction
 An exercise in computer structure course, we were given a task to implement pstring.s with several methods like the string.h, as -
 
-* `char pstrlen(pstring* pstr)` - get the length of pstring
-* `pstring* replaceChar(pstring* pstr, char oldChar, char newChar)` - replace all the oldChar instance with newChar in pstr
-* `pstring* pstrijcpy(pstring* dst, pstring* src, char i, char j)` - copy src[i:j] to dst[i:j]
-* `pstring* swapCase(pstring* pstr)` - replace all chars (a-z or A-Z) cases from lower-case to upper-case and the opposite
-* `int pstrijcmp(pstring* pstr1, pstring* pstr2, char i, char j)` - compare between src[i:j] to dst[i:j]
-
+```c
+char pstrlen(pstring* pstr) // get the length of pstring
+pstring* replaceChar(pstring* pstr, char oldChar, char newChar) // replace all the oldChar instance with newChar in pstr
+pstring* pstrijcpy(pstring* dst, pstring* src, char i, char j) // copy src[i:j] to dst[i:j]
+pstring* swapCase(pstring* pstr) // replace all chars (a-z or A-Z) cases from lower-case to upper-case and the opposite
+int pstrijcmp(pstring* pstr1, pstring* pstr2, char i, char j) // compare between src[i:j] to dst[i:j]
+```
 ## run_main.s
 Getting an int from the user - the length of the first pstring (n), then getting n chars for the first pstirng. Then doing the same procces for the second pstring. Getting a number from the user (50, 52-55 or 60) and run one of the functions above using a switch case statement.
 
