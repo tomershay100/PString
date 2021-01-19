@@ -9,9 +9,17 @@ An exercise in computer structure course, we were given a task to implement pstr
 
 ```c
 char pstrlen(pstring* pstr) // get the length of pstring
+```
+```c
 pstring* replaceChar(pstring* pstr, char oldChar, char newChar) // replace all the oldChar instance with newChar in pstr
+```
+```c
 pstring* pstrijcpy(pstring* dst, pstring* src, char i, char j) // copy src[i:j] to dst[i:j]
+```
+```c
 pstring* swapCase(pstring* pstr) // replace all chars (a-z or A-Z) cases from lower-case to upper-case and the opposite
+```
+```c
 int pstrijcmp(pstring* pstr1, pstring* pstr2, char i, char j) // compare between src[i:j] to dst[i:j]
 ```
 ## run_main.s
